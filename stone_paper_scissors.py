@@ -1,17 +1,7 @@
-# import random
-# random_num=random.randint(0,5)
-# print(random_num)
-
-# condition
-
-# snake>water
-# water>gun
-# gun>snake    paper scissors
 import random
 computer_choice_list=["stone","paper","scissors"]
 computer_choice=random.choice(computer_choice_list)
 print("\n\t\t\twelcome To 'Stone Paper Scissors Game !'")
-# print(computer_choice) 
 i=5
 user_points=0
 computer_points=0
